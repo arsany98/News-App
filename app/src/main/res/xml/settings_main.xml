@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="@string/order_by_key"
+        android:defaultValue="newest"
+        android:entries="@array/order_by_labels"
+        android:entryValues="@array/order_by_labels"
+        android:title="@string/order_by_label"/>
+    <EditTextPreference
+        android:key="@string/page_size_key"
+        android:defaultValue="10"
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:title="@string/page_size_label"/>
+
+</PreferenceScreen>
